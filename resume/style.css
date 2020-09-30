@@ -1,25 +1,28 @@
-/*comment */
+/*styles for my resume*/
 
-  BODY {
+BODY {
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
   color:#444;
   font-weight:400;
-  }
+}
 
-  h1 {
-   font-size: 3em;
-   color:#33485e;
-   text-transform: uppercase;
-   text-align:center;
-    }
+/*name stands out more*/
+h1 {
+  font-size: 3em;
+  color:#33485e;
+  text-transform: uppercase;
+  text-align:center;
+}
 
+/*title is changed*/
 strong{
   text-transform: uppercase;
   color:#33485e;
   font-size: 1.5em;
 }
 
+/*selection titles have more styles*/
 h2{
   font-size: 1.5em;
   text-transform: uppercase;
@@ -27,22 +30,26 @@ h2{
   color:#FFF;
 }
 
+/*size and boldness of job titles*/
 h3{
   font-weight:600;
   font-size: 1.5em;
 }
 
+/*size and boldness of job organization*/
 h4{
   font-weight:400;
   font-size: 1.5em;
 }
 
+/*size and boldness of job dates*/
 h5{
   font-weight:400;
   font-style:italic;
   font-size: 1em;
 }
 
+/*size change of contact, etc.*/
 ul{
   font-size: 1em;
 }
