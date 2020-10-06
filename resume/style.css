@@ -7,12 +7,19 @@ BODY {
   font-weight:400;
 }
 
+#container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom:50px;
+}
 /*name stands out more*/
 #name {
   font-size: 3em;
   color:#33485e;
   text-transform: uppercase;
   text-align:center;
+  border-bottom:1px;
   border-bottom-style: solid;
   border-color: #33485e;
   border-width: 60%;
@@ -21,14 +28,20 @@ BODY {
 }
 
 /*title is changed*/
-strong{
+#title{
   text-transform: uppercase;
   color:#33485e;
   font-size: 1.5em;
+  font-weight: 600px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /*selection titles have more styles*/
-#sectionheader{
+.sectionheader{
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
@@ -59,9 +72,9 @@ strong{
   font-style:italic;
   font-size: 1em;
   margin-top: 2px;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .description{
@@ -75,14 +88,33 @@ strong{
   margin: 0px;
   padding: 0px;
   text-align:center;
-  display: inline;
+  ul display: center;
 }
 
+.menu ul li {display: inline;}
+
 #degrees{
-  
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+#do{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /*size of contact, etc.*/
 ul{
   font-size: 1em;
+}
+
+.top{
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
