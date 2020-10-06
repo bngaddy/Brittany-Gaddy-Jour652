@@ -8,11 +8,16 @@ BODY {
 }
 
 /*name stands out more*/
-h1 {
+#name {
   font-size: 3em;
   color:#33485e;
   text-transform: uppercase;
   text-align:center;
+  border-bottom-style: solid;
+  border-color: #33485e;
+  border-width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 /*title is changed*/
@@ -23,11 +28,17 @@ strong{
 }
 
 /*selection titles have more styles*/
-h2{
+#sectionheader{
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
   color:#FFF;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 70%;
+  min-width: 300px;
 }
 
 /*size and boldness of job titles*/
@@ -39,7 +50,7 @@ h3{
 /*size and boldness of job organization*/
 h4{
   font-weight:400;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 /*size and boldness of job dates*/
@@ -47,6 +58,7 @@ h5{
   font-weight:400;
   font-style:italic;
   font-size: 1em;
+  margin-top: 2px;
 }
 
 /*size of contact, etc.*/
