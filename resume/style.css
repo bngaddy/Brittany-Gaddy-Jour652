@@ -86,6 +86,7 @@ BODY {
 
 /*menu centering problem is fixed*/
 .menu{
+  font-size: 1em;
   margin: 0px;
   padding: 0px;
   text-align:center;
@@ -93,9 +94,10 @@ BODY {
 /*links are inline*/
 
 .menu ul li {display: inline;}
-/*degrees are my education*/
 
+/*degrees are my education*/
 #degrees{
+  font-size: 1em;
   margin-top: 5px;
   margin-left: 0px;
   margin-right: 0px;
@@ -104,6 +106,7 @@ BODY {
 
 /*do are skills*/
 #do{
+  font-size: 1em;
   margin-top: 5px;
   margin-bottom: 0px;
   margin-left: 0px;
