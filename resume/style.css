@@ -6,7 +6,7 @@ BODY {
   color:#444;
   font-weight:400;
 }
-
+/*container*/
 #container{
   width: 100%;
   max-width: 1200px;
@@ -84,13 +84,16 @@ BODY {
   margin-right: 0px;
 }
 
+/*menu centering problem is fixed*/
 .menu{
   margin: 0px;
   padding: 0px;
   text-align:center;
 }
+/*links are inline*/
 
 .menu ul li {display: inline;}
+/*degrees are my education*/
 
 #degrees{
   margin-top: 5px;
@@ -99,6 +102,7 @@ BODY {
   margin-bottom: 0px;
 }
 
+/*do are skills*/
 #do{
   margin-top: 5px;
   margin-bottom: 0px;
@@ -111,6 +115,7 @@ ul{
   font-size: 1em;
 }
 
+/*top is description*/
 .top{
   width: 60%;
   min-width: 300px;
@@ -119,3 +124,5 @@ ul{
   margin: 0 auto;
   text-align: center;
 }
+
+/*completed resume*/
