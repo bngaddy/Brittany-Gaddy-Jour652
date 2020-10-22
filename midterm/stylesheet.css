@@ -1,18 +1,73 @@
 body{
 font-size: 12px;
 font-family: Helvetica,Arial,sans-serif;
+text-align: justify;
 }
 
 h1{
-  font-size: 3em;
+  font-size: 2.5em;
   font-family: Montserrat;
+  font-style: oblique;
+  font-weight: bolder;
+  padding-top: 30px;
+}
+
+#byline{
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  padding-bottom: 30px;
+}
+
+.caption{
+  padding: -60px;
 }
 
 h2{
   font-size: 1.5em;
   font-family: sans-serif;
+  padding-top: 15px;
 }
-
+/* Not Needed */
 p{
   font-size: 15px;
+}
+
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+figure1{
+  float: right;
+  padding-left: 30px;
+  padding-bottom: 15px;
+}
+
+figureh{
+  text-align: left;
+}
+
+figure2{
+  float: left;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+blockquote{
+  width:200px;
+  float: left;
+  color: grey;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.7em;
+  border-left: 4px solid;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.links1{
+  font-size: 17px;
 }
