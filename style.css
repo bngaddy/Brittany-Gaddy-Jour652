@@ -1,18 +1,12 @@
 /*selection titles have more styles*/
 
-.jumbotron {
-  background-image:url(mast.png);
-  background-size: cover;
-height: 100%;}
-}
-
 body{
-  padding-top: 100px;
-
+  padding-top: 5%;
 }
 
 
 h3 {
+  font: Montserrat;
   text-align: center;
   padding-bottom: 30px;
   font-style: italic;
@@ -40,4 +34,14 @@ h3 {
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom:50px;
+}
+
+
+li{
+  display: inline;
+  color: #F1E2DC;
+}
+
+.icons i {
+  color: #2759AE;
 }
