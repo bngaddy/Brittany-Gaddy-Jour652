@@ -1,0 +1,63 @@
+/*selection titles have more styles*/
+.sectionheader{
+  font-size: 1.5em;
+  text-transform: uppercase;
+  background-color: #33485e;
+  color:#FFF;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 70%;
+  min-width: 300px;
+}
+
+/*size and boldness of job titles*/
+.jobtitle{
+  font-weight:600;
+  font-size: 1.5em;
+}
+
+/*size and boldness of job organization*/
+.organization{
+  font-weight:400;
+  font-size: 1.25em;
+}
+
+/*size and boldness of job dates*/
+.date{
+  font-weight:400;
+  font-style:italic;
+  font-size: 1em;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.description{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/*menu centering problem is fixed*/
+.menu{
+  font-size: 1em;
+  margin: 0px;
+  padding: 0px;
+  text-align:center;
+}
+/*links are inline*/
+
+.menu ul li {display: inline;}
+
+/*degrees are my education*/
+#degrees{
+  font-size: 1em;
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
