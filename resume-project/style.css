@@ -1,11 +1,14 @@
 /*selection titles have more styles*/
 
-
-
 body{
   padding-top: 5%;
-  text-align:
+  margin-bottom: 60px; /* Margin bottom by footer height */
 }
+
+@media screen and (max-width: 800px) {
+ .pic {width:100%;}
+}
+
 
 h3 {
   font: Montserrat;
@@ -36,9 +39,7 @@ html {
   position: relative;
   min-height: 100%;
 }
-body {
-  margin-bottom: 60px; /* Margin bottom by footer height */
-}
+
 .footer {
   position: absolute;
   bottom: 0;
