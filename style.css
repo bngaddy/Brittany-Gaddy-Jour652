@@ -43,6 +43,10 @@ li{
   color: #F1E2DC;
 }
 
-.fab {
+.fab{
+  color: gray;
+}
+
+.fas{
   color: gray;
 }
