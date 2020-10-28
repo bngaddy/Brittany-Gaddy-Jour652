@@ -5,10 +5,6 @@ body{
   margin-bottom: 60px; /* Margin bottom by footer height */
 }
 
-@media screen and (max-width: 800px) {
- .pic {width:100%;}
-}
-
 h3 {
   font: Montserrat;
   text-align: center;
