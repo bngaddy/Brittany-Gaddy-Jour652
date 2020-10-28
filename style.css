@@ -2,6 +2,7 @@
 
 body{
   padding-top: 5%;
+  text-align:
 }
 
 
@@ -42,6 +43,10 @@ li{
   color: #F1E2DC;
 }
 
-.icons i {
-  color: #2759AE;
+.fab {
+  color: gray;
+}
+
+.nav-link{
+  color:gray;
 }
