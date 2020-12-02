@@ -1,12 +1,12 @@
 body{
   text-align: justify;
   font-size: 1em;
-  font-family: Noto Serif SC;
+  font-family: Noto Serif SC, arial, Helvetica;
   color: black;
 }
 
 #byline{
-  font-family: Helvetica, sans-serif,arial;
+  font-family: Noto Serif SC, arial, Helvetica;
   font-size: 13px;
   padding-bottom: 24px;
   font-weight: normal;
@@ -17,12 +17,6 @@ body{
 figure{
   text-align: center;
 }
-
-figure figcaption {
-    border: 1px dotted gray;
-    text-align: left;
-  }
-
 
 html {
   position: relative;
@@ -37,11 +31,6 @@ html {
   line-height: 60px; /* Vertically center the text there */
   background-color: #f5f5f5;
   text-align: center;
-}
-
-.container {
-  margin: 0 auto;
-  width: 100%;
 }
 
 .heroImage {
@@ -73,10 +62,6 @@ hero{
   font-weight: bolder;
 }
 
-h2{
-
-}
-
 h1{
   padding-top: 25px;
   font-size: 2.5em;
@@ -92,30 +77,6 @@ h3{
   color: #FF8C00;
   font-family: sans-serif;
 }
-
-figure1{
-  padding-bottom: 30px;
-}
-
-figure2{
-  margin: 0 auto;
-  width: 70%;
-  align-items: center;
-}
-
-figure2 figcaption {
-    border: 1px dotted gray;
-    text-align: left;
-    font-style: italic;
-    color: black;
-  }
-
-figure1 figcaption {
-    border: 1px dotted gray;
-    text-align: left;
-    font-style: italic;
-    color: black;
-  }
 
 #sidebar{
   font-size: 1em;
@@ -178,7 +139,7 @@ blockquote{
   display: inline;
 }
 
-li{
+.form-inline li{
   display: flex;
 }
 
@@ -218,4 +179,9 @@ a:visited {
 /* mouse over link */
 a:hover {
   color: red;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
 }
