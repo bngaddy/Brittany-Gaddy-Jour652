@@ -1,14 +1,17 @@
 body{
   text-align: justify;
   font-size: 1em;
+  font-family: Noto Serif SC;
+  color: black;
 }
-
 
 #byline{
   font-family: Helvetica, sans-serif,arial;
-  font-size: 11px;
-  font-style: italic;
-  padding-bottom: 30px;
+  font-size: 13px;
+  padding-bottom: 24px;
+  font-weight: normal;
+  color: black;
+  margin-top: -5px;
 }
 
 figure{
@@ -23,7 +26,7 @@ figure figcaption {
 
 html {
   position: relative;
-  min-height: 100%;
+  min-height: 110%;
 }
 
 .footer {
@@ -38,7 +41,7 @@ html {
 
 .container {
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
 }
 
 .heroImage {
@@ -62,15 +65,157 @@ html {
   width: 100%;
   height:auto;
 	color: white;
-  font-style: oblique;
 }
 
 hero{
-  font-size: 7em;
+  font-size: 5em;
   font-stretch: extra-expanded;
   font-weight: bolder;
 }
 
 h2{
-  font-style: normal;
+
+}
+
+h1{
+  padding-top: 25px;
+  font-size: 2.5em;
+  font-weight: bolder;
+  color: black;
+}
+
+h3{
+  padding-top: 25px;
+  padding-bottom: 10px;
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: #FF8C00;
+  font-family: sans-serif;
+}
+
+figure1{
+  padding-bottom: 30px;
+}
+
+figure2{
+  margin: 0 auto;
+  width: 70%;
+  align-items: center;
+}
+
+figure2 figcaption {
+    border: 1px dotted gray;
+    text-align: left;
+    font-style: italic;
+    color: black;
+  }
+
+figure1 figcaption {
+    border: 1px dotted gray;
+    text-align: left;
+    font-style: italic;
+    color: black;
+  }
+
+#sidebar{
+  font-size: 1em;
+}
+
+.callout{
+  padding-top: 25px;
+  padding-bottom:25px;
+}
+
+/* Callout header */
+.callout-header {
+  padding: 25px 15px;
+  background: #FF8C00;
+  font-size: 30px;
+  color: white;
+  width:70%;
+  margin: auto;
+}
+
+/* Callout container/body */
+.callout-container {
+  padding: 15px;
+  background-color: #EEEEEE;
+  color: black;
+  width:70%;
+  margin: auto;
+}
+
+iframe{
+  margin-top: 25px;
+}
+
+cap{
+  font-size: 12px;
+  padding-top: 25px;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+
+blockquote{
+  width:900px;
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.7em;
+  border-left: 4px solid red;
+  align-items: center;
+  margin: 0 auto;
+  font-family: sans-serif;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#blog-post{
+  margin-left: 25px;
+}
+
+#form-inline li{
+  display: inline;
+}
+
+li{
+  display: flex;
+}
+
+.fab{
+  color: gray;
+}
+
+@media screen and (max-width: 500px) {
+ .heroImage {
+   height:40%;
+ }
+ blockquote{
+   display:none;
+ }
+ br{
+   display: none;
+ }
+
+ h1{
+   font-size: 2em;
+   text-align: left;
+ }
+ .p-3{
+   display: none;
+ }
+}
+
+a:link {
+  color: #FF8C00;
+}
+
+/* visited link */
+a:visited {
+  color: #FF8C00;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
 }
