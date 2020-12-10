@@ -1,9 +1,12 @@
 body{
   text-align: justify;
+  font-size: 17px;
 }
 
 h1{
-  padding-top: 30px;
+  text-align: left;
+  padding-top: 210px;
+  font-weight: bolder;
 }
 
 #byline{
@@ -11,7 +14,20 @@ h1{
   font-size: 11px;
   font-style: italic;
   padding-bottom: 30px;
+  padding-left: 300px;
 }
+
+.display-4{
+  align-items: center;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+.intro{
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
 
 figure{
   text-align: center;
@@ -20,6 +36,7 @@ figure{
 figure figcaption {
     border: 1px dotted gray;
     text-align: left;
+    font-size: 13px;
   }
 
 @media screen and (max-width: 800px) {
@@ -43,7 +60,39 @@ html {
   text-align: center;
 }
 
+
+p{
+  padding-left: 100px;
+  padding-right:100px;
+}
+
+.data{
+    padding-left: 100px;
+    padding-right:100px;
+    padding-top: 40px;
+  }
+
+.vid{
+    align-items: center;
+    padding-left:250px;
+    padding-top: 40px;
+    }
+
+.caption{
+  padding-right: 60px;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.jumbotron{
+  background-image: url("images/test.png");
+  background-size: cover;
+  color: white;
+  height: 800px;
+  background-color: white;
+}
+
 .container {
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
 }
