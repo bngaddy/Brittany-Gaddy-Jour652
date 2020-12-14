@@ -99,6 +99,14 @@ p{
   background-color: white;
 }
 
+.blockquote{
+  font-size: 30px;
+  color: #131766;
+  padding-left: 100px;
+  padding-right:100px;
+  font-style: oblique;
+ }
+
 @media screen and (max-width: 1000px) {
  p {
    padding-left: 0px;
@@ -112,11 +120,7 @@ p{
   height: 50%;
 }
 .blockquote{
-  font-size: 30px;
-  color: #131766;
-  padding-left: 100px;
-  padding-right:100px;
-  font-style: oblique;
+  display: none;
  }
 }
 
