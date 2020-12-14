@@ -92,7 +92,43 @@ p{
   background-color: white;
 }
 
+@media screen and (max-width: 900px) {
+ p {
+   padding-left: 0px;
+   padding-right: 0px;
+ }
+.intro{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.hero{
+  height: 50%;
+}
+.blockquote{
+  font-size: 30px;
+  color: #131766;
+  padding-left: 100px;
+  padding-right:100px;
+  font-style: oblique;
+ }
+}
+
+@media screen and (max-width: 600px) {
+  .vid{
+    display: none;
+   }
+}
+
+
+
 .container {
   margin: 0 auto;
+  width: 100%;
+}
+
+.data1{
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
   width: 100%;
 }
