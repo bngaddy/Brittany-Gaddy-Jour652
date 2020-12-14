@@ -78,10 +78,17 @@ p{
     padding-top: 40px;
     }
 
-.caption{
-  padding-right: 60px;
+.caption1{
+  padding-left: 10px;
+  padding-bottom: 30px;
   font-style: normal;
-  font-size: 15px;
+  font-size: 14px;
+}
+
+.caption{
+  padding-left: 10px;
+  font-style: normal;
+  font-size: 14px;
 }
 
 .jumbotron{
@@ -92,7 +99,7 @@ p{
   background-color: white;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
  p {
    padding-left: 0px;
    padding-right: 0px;
@@ -113,7 +120,7 @@ p{
  }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .vid{
     display: none;
    }
