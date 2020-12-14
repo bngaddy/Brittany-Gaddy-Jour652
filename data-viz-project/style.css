@@ -126,7 +126,9 @@ p{
    }
 }
 
-
+a:visited {
+  color: #272FCC;
+}
 
 .container {
   margin: 0 auto;
